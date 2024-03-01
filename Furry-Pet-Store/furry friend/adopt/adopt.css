@@ -1,0 +1,97 @@
+/* body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #f7f7f7;
+    color: #444;
+    line-height: 1.6;
+    padding: 40px 0;
+} */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-image: url('bkad.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.pet-profile {
+    background: #ffffff;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 650px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+
+.pet-name {
+    text-align: center;
+    background-color: #d79e53;
+    color: #ffffff;
+    padding: 20px 0;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.pet-photo {
+    width: 100%;
+    display: block; /* Removes bottom space under image */
+    border-top: 5px solid #5D5C61;
+    border-bottom: 5px solid #7395AE;
+}
+
+.pet-details, .adoption-info {
+    padding: 25px 30px;
+    text-align: left;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.pet-details h2, .adoption-info h2 {
+    font-size: 1.6rem;
+    color: #5D5C61;
+    margin-bottom: 15px;
+}
+
+.pet-details p, .adoption-info p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.adoption-info {
+    border-bottom: none;
+}
+
+strong {
+    color: #333;
+    font-weight: normal;
+}
+
+
+.contact-info {
+    background-color: #7395AE;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 5px 0; /* Small vertical spacing between contact lines */
+}
+
+@media (max-width: 768px) {
+    .pet-profile {
+        width: 95%;
+    }
+
+    .pet-name {
+        font-size: 1.8rem;
+    }
+
+    .pet-details h2, .adoption-info h2 {
+        font-size: 1.4rem;
+    }
+}

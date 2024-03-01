@@ -1,0 +1,100 @@
+/* blog2.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('aa.jpeg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333; /* Default text color */
+}
+
+header {
+    background-color: rgba(0,0,0,0.7);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em; /* Increase the size of the header text */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em; /* Increase the navigation text size */
+}
+
+.featured-article {
+    background-color: rgba(255,255,255,0.8);
+    align-content: center;
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.featured-article h2 {
+    font-size: 2em; /* Increase the article title size */
+    color: #007bff; /* Blue heading */
+    margin-bottom: 20px;
+}
+
+.featured-article img {
+    display: block;
+    margin: 20px auto; /* This centers the image */
+    max-width: 100%; /* Ensures the image is responsive and doesn't overflow its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    border-radius: 10px; /* Optional: Adds rounded corners to the image */
+}
+
+
+
+.featured-article p, .featured-article ul {
+    font-size: 1.2em; /* Increase the paragraph text size */
+    line-height: 1.6; /* Improve readability */
+    color: #444; /* Slightly darker color for better contrast */
+}
+
+.featured-article ul li {
+    margin-bottom: 10px; /* Add some space between list items */
+}
+
+footer {
+    background-color: rgba(0,0,0,0.7);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 1.2em; /* Increase footer text size */
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em; /* Larger social icons */
+}
